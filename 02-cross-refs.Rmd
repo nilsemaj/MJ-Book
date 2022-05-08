@@ -1,4 +1,4 @@
-# Whatlove is or isn’t
+# What love is or isn’t
 
 ```{r eval=FALSE}
 
