@@ -64,7 +64,16 @@
 </form>
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
-        <ul class="book-toc list-unstyled"><li><a class="" href="index.html"><span class="header-section-number">Chapter 2</span> Preface</a></li></ul>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html"><span class="header-section-number">1</span> About</a></li>
+<li><a class="active" href="preface.html"><span class="header-section-number">2</span> Preface</a></li>
+<li><a class="" href="cross.html"><span class="header-section-number">3</span> Cross-references</a></li>
+<li><a class="" href="parts.html"><span class="header-section-number">4</span> Parts</a></li>
+<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">5</span> Footnotes and citations</a></li>
+<li><a class="" href="blocks.html"><span class="header-section-number">6</span> Blocks</a></li>
+<li><a class="" href="sharing-your-book.html"><span class="header-section-number">7</span> Sharing your book</a></li>
+<li><a class="" href="references.html">References</a></li>
+</ul>
 
         <div class="book-extra">
           <p><a id="book-repo" href="https://github.com/nilsemaj/MJ-Book">View book source <i class="fab fa-github"></i></a></p>
@@ -75,11 +84,11 @@
 <h1>
 <span class="header-section-number">2</span> Preface<a class="anchor" aria-label="anchor" href="#preface"><i class="fas fa-link"></i></a>
 </h1>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="preface.html#cb1-1" aria-hidden="true" tabindex="-1"></a>The wounds </span>
-<span id="cb1-2"><a href="preface.html#cb1-2" aria-hidden="true" tabindex="-1"></a>Are reasons </span>
-<span id="cb1-3"><a href="preface.html#cb1-3" aria-hidden="true" tabindex="-1"></a>I write poetry</span>
-<span id="cb1-4"><a href="preface.html#cb1-4" aria-hidden="true" tabindex="-1"></a>To lead us </span>
-<span id="cb1-5"><a href="preface.html#cb1-5" aria-hidden="true" tabindex="-1"></a>back together</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="preface.html#cb3-1" aria-hidden="true" tabindex="-1"></a>The wounds </span>
+<span id="cb3-2"><a href="preface.html#cb3-2" aria-hidden="true" tabindex="-1"></a>Are reasons </span>
+<span id="cb3-3"><a href="preface.html#cb3-3" aria-hidden="true" tabindex="-1"></a>I write poetry</span>
+<span id="cb3-4"><a href="preface.html#cb3-4" aria-hidden="true" tabindex="-1"></a>To lead us </span>
+<span id="cb3-5"><a href="preface.html#cb3-5" aria-hidden="true" tabindex="-1"></a>back together</span></code></pre></div>
 <div id="a-section" class="section level2" number="2.1">
 <h2>
 <span class="header-section-number">2.1</span> A section<a class="anchor" aria-label="anchor" href="#a-section"><i class="fas fa-link"></i></a>
@@ -94,15 +103,21 @@
 </div>
 </div>
   <div class="chapter-nav">
-<div class="empty"></div>
-<div class="empty"></div>
+<div class="prev"><a href="index.html"><span class="header-section-number">1</span> About</a></div>
+<div class="next"><a href="cross.html"><span class="header-section-number">3</span> Cross-references</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <div id="book-on-this-page"></div>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#preface"><span class="header-section-number">2</span> Preface</a></li>
+<li>
+<a class="nav-link" href="#a-section"><span class="header-section-number">2.1</span> A section</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#an-unnumbered-section">An unnumbered section</a></li></ul>
+</li>
+</ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-          
+<li><a id="book-source" href="https://github.com/nilsemaj/MJ-Book/blob/master/01-intro.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/nilsemaj/MJ-Book/edit/master/01-intro.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
         </ul>
 </div>
     </nav>
@@ -122,6 +137,34 @@
   </div>
 
 </div></div>
-</footer>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
 </body>
 </html>

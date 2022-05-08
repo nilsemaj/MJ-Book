@@ -38,7 +38,7 @@
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
   pdftitle={Poetry Book for Manjot Kaur Rekhi},
-  pdfauthor={James Lin},
+  pdfauthor={James Rekhi Lin},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
@@ -117,7 +117,7 @@
 \bibliographystyle{apalike}
 
 \title{Poetry Book for Manjot Kaur Rekhi}
-\author{James Lin}
+\author{James Rekhi Lin}
 \date{2022-05-08}
 
 \usepackage{amsthm}
@@ -147,22 +147,41 @@
 \hypertarget{about}{%
 \chapter{About}\label{about}}
 
-This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports; for example, a math equation \(a^2 + b^2 = c^2\).
+This is the first draft of a poetry book. Dedicated to my greatest, kindest, smartest, beautiful Manjot Kaur Rekhi.
 
-\hypertarget{usage}{%
-\section{Usage}\label{usage}}
+\begin{figure}
+\centering
+\includegraphics[width=1.04167in,height=\textheight]{mimages/18 3-19-2021.jpg}
+\caption{March 19, 2021}
+\end{figure}
 
-First
+\begin{figure}
+\centering
+\includegraphics[width=2.08333in,height=\textheight]{images/manjot kayak.jpg}
+\caption{July 25, 2020}
+\end{figure}
 
-I opened \_output.yml file and changed the repo name.
-can also change the color theme- primary
-- use \texttt{https://coolors.co/}
+\hypertarget{set-up}{%
+\section{Set up}\label{set-up}}
 
-Each \textbf{bookdown} chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter \emph{must} start with a first-level heading: \texttt{\#\ A\ good\ chapter}, and can contain one (and only one) first-level heading.
+I used the tutorial from \emph{\url{https://www.youtube.com/watch?v=_ptrgqx2zUs\&ab_channel=AlisonHill}}
 
-Use second-level and higher headings within chapters like: \texttt{\#\#\ A\ short\ section} or \texttt{\#\#\#\ An\ even\ shorter\ section}.
-
-The \texttt{index.Rmd} file is required, and is also your first book chapter. It will be the homepage when you render the book.
+\begin{itemize}
+\item
+  I ran the function \texttt{create\_bs4\_book} in the \texttt{bookdown} package.
+\item
+  I opened \texttt{\_output.yml} file and changed the repo name to my Github repository URL.
+\item
+  I changed the color theme- \texttt{primary} by searching colors in \emph{\url{https://coolors.co/}}
+\item
+  I used \texttt{4A8FE7} - United Nations Blue
+\item
+  Each \textbf{bookdown} chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter \emph{must} start with a first-level heading: \texttt{\#\ A\ good\ chapter}, and can contain one (and only one) first-level heading.
+\item
+  Use second-level and higher headings within chapters like: \texttt{\#\#\ A\ short\ section} or \texttt{\#\#\#\ An\ even\ shorter\ section}.
+\item
+  The \texttt{index.Rmd} file is required, and is also your first book chapter. It will be the homepage when you render the book.
+\end{itemize}
 
 \hypertarget{render-book}{%
 \section{Render book}\label{render-book}}
@@ -185,8 +204,6 @@ Or build the book from the R console:
 \end{Highlighting}
 \end{Shaded}
 
-To render this example to PDF as a \texttt{bookdown::pdf\_book}, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): \url{https://yihui.org/tinytex/}.
-
 \hypertarget{preview-book}{%
 \section{Preview book}\label{preview-book}}
 
@@ -198,10 +215,29 @@ As you work, you may start a local server to live preview this HTML book. This p
 \end{Highlighting}
 \end{Shaded}
 
-\hypertarget{hello-bookdown}{%
-\chapter{Hello bookdown}\label{hello-bookdown}}
+\hypertarget{website-publishing}{%
+\section{Website Publishing}\label{website-publishing}}
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (\texttt{\#}) per .Rmd file.
+After editing and adding the poems, I uploaded the book to Netlify.
+
+\begin{itemize}
+\tightlist
+\item
+  I used the \texttt{\_book} folder for the website
+\end{itemize}
+
+\hypertarget{preface}{%
+\chapter{Preface}\label{preface}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{The wounds }
+\NormalTok{Are reasons }
+\NormalTok{I write poetry}
+\NormalTok{To lead us }
+\NormalTok{back together}
+\end{Highlighting}
+\end{Shaded}
 
 \hypertarget{a-section}{%
 \section{A section}\label{a-section}}
