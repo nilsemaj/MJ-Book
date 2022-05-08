@@ -1,28 +1,10 @@
 # Preface  
 
-\begin{center}
-
+```{r eval=FALSE}
 The wounds 
-
 Are reasons 
-
 I write poetry
-
 To lead us 
-
-back together
-
-\end{center}
-
-```{r eval=FALSE, fig.align="center"}
-The wounds 
-
-Are reasons 
-
-I write poetry
-
-To lead us 
-
 back together
 ```
 

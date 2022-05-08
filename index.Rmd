@@ -22,7 +22,9 @@ This is the first draft of a poetry book. Dedicated to my greatest, kindest, sma
 
 <center>
 
-![pic](images/manjot kayak.jpg){width=200px}
+![March 19, 2021](mimages/18 3-19-2021.jpg){length=300px, width=100px}
+
+![July 25, 2020](images/manjot kayak.jpg){length=400px, width=200px}
 
 </center>
 
