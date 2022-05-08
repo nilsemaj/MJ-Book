@@ -1,34 +1,41 @@
 --- 
 title: "Poetry Book for Manjot Kaur Rekhi"
-author: "James Lin"
+author: "James Rekhi Lin"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
+output: pdf_document
 documentclass: book
-bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
+bibliography:
+- book.bib
+- packages.bib
 description: |
   This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::bs4_book,
   set in the _output.yml file.
+  The HTML output format for this example is bookdown::bs4_book,
 biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
+site: bookdown::bookdown_site
 ---
 
 # About
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+This is the first draft of a poetry book. Dedicated to my greatest, kindest, smartest, beautiful Manjot Kaur Rekhi.
+
+![pic](images/manjot kayak.jpg){width=200px}
+
+
+
 
 ## Usage 
 
-### First
+I used the tutorial from this URL- *https://www.youtube.com/watch?v=_ptrgqx2zUs&ab_channel=AlisonHill*
 
-I opened `_output.yml` file and changed the repo name.
+I ran the function `create_bs4_book` in the `bookdown` package.
 
-can also change the color theme- primary
+I opened `_output.yml` file and changed the repo name to my Github repository URL.
 
-- use *https://coolors.co/*
-- I used `4A8FE7` - united nations blue
+I changed the color theme- `primary` by searching colors in *https://coolors.co/*
+
+- I used `4A8FE7` - United Nations Blue
 
 Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
 
