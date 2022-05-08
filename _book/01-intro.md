@@ -1,6 +1,32 @@
-# Hello bookdown 
+# Preface  
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (`#`) per .Rmd file.
+\begin{center}
+
+The wounds 
+
+Are reasons 
+
+I write poetry
+
+To lead us 
+
+back together
+
+\end{center}
+
+
+```r
+The wounds 
+
+Are reasons 
+
+I write poetry
+
+To lead us 
+
+back together
+```
+
 
 ## A section
 

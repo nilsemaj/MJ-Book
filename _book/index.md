@@ -20,28 +20,33 @@ site: bookdown::bookdown_site
 
 This is the first draft of a poetry book. Dedicated to my greatest, kindest, smartest, beautiful Manjot Kaur Rekhi.
 
-![pic](images/manjot kayak.jpg)
+<center>
+
+![pic](images/manjot kayak.jpg){width=200px}
+
+</center>
 
 
-\newpage
 
-## Usage 
 
-I used the tutorial from this URL- *https://www.youtube.com/watch?v=_ptrgqx2zUs&ab_channel=AlisonHill*
 
-I ran the function `create_bs4_book` in the `bookdown` package.
+## Set up 
 
-I opened `_output.yml` file and changed the repo name to my Github repository URL.
+I used the tutorial from *https://www.youtube.com/watch?v=_ptrgqx2zUs&ab_channel=AlisonHill*
 
-I changed the color theme- `primary` by searching colors in *https://coolors.co/*
+- I ran the function `create_bs4_book` in the `bookdown` package.
+
+- I opened `_output.yml` file and changed the repo name to my Github repository URL.
+
+- I changed the color theme- `primary` by searching colors in *https://coolors.co/*
 
 - I used `4A8FE7` - United Nations Blue
 
-Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
+- Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
 
-Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
+- Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
 
-The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
+- The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
 
 ## Render book
 
@@ -58,8 +63,6 @@ Or build the book from the R console:
 bookdown::render_book()
 ```
 
-To render this example to PDF as a `bookdown::pdf_book`, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
-
 ## Preview book
 
 As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in "Preview book", or from the R console:
@@ -68,6 +71,15 @@ As you work, you may start a local server to live preview this HTML book. This p
 ```r
 bookdown::serve_book()
 ```
+
+
+
+
+## Website Publishing 
+
+After editing and adding the poems, I uploaded the book to Netlify. 
+
+- I used the `_book` folder for the website
 
 
 

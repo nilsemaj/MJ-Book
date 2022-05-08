@@ -3,10 +3,11 @@ tab:nice-tab
 eq:binom
 thm:tri
 about
-usage
+set-up
 render-book
 preview-book
-hello-bookdown
+website-publishing
+preface
 a-section
 cross
 chapters-and-sub-chapters
