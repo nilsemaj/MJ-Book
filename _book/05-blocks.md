@@ -2,10 +2,10 @@
 
 
 ```r
-My hands on my fat thighs.
+My hands on my fat thighs,
 Believing I would end up lost.
 My body signals,
-Enough of this cruelty 
+Enough of this cruelty.
 
 How I walk slowly back home,
 Close to falling,
@@ -15,7 +15,7 @@ Rising high with each low.
 Thousands of fools,
 Obsessed in their self-destruction,
 But that’s how the journey is,
-The journey of love
+The journey of love.
 
 To bear the distant longing,
 To bear sleepiness from endless talking,
@@ -38,10 +38,12 @@ Beyond all.
 <center>
 
 
-![April 25, 2020](mimages/0.1 4-25-2020.jpg){length=400px, width=100px}
+![April 25, 2020](mimages/0.1 4-25-2020.jpg){length=1000px, width=500px}
 
-![September 11, 2020](mimages/3 9-11-2020.jpg){length=400px, width=100px}
+![September 11, 2020](mimages/3 9-11-2020.jpg){length=1000px, width=500px}
 
-![November 15, 2020](mimages/4.1 11-15-2020.jpg){length=400px, width=100px}
+![November 15, 2020](mimages/4.1 11-15-2020.jpg){length=1000px, width=500px}
+
+![May 15, 2021](mimages/9 5-15-2021.jpg){length=1000px, width=500px}
 
 </center>

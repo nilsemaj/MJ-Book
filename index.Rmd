@@ -18,11 +18,11 @@ site: bookdown::bookdown_site
 
 # About
 
-This is the first draft of a poetry book. Dedicated to my greatest, kindest, smartest, beautiful Manjot Kaur Rekhi.
+This is the first draft of a poetry book. Dedicated to the greatest, kindest, smartest, beautifulest Manjot Kaur Rekhi.
 
 <center>
 
-![March 19, 2021](mimages/18 3-19-2021.jpg){length=600px, width=200px}
+![March 19, 2021](mimages/18 3-19-2021.jpg){length=1000px, width=500px}
 
 
 </center>

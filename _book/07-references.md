@@ -1,8 +1,19 @@
 
+I can only see the world as it should be.
 
-## Set up 
+I can not see into people’s hearts.
+
+But I know in my heart, I see, you, Manjot Kaur Rekhi.
+
+<center>
+
+![December 31, 2021](mimages/15.1 12-31-2021.jpg){length=1000px, width=500px}
+
+</center>
 
 `**Feel free to skip this part**`
+
+## Set up 
 
 I used the tutorial from *https://www.youtube.com/watch?v=_ptrgqx2zUs&ab_channel=AlisonHill*
 

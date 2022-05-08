@@ -2,39 +2,42 @@
 
 ```{r eval=FALSE}
 When I was a kid,
-I went to temple on Saturday 
-and church on Sunday,
-To hear the preacher preach
+I went to temple on Saturdays,
+and church on Sundays,
+To hear the preacher preach.
 
-They made me think about everything good,
-everything bad,
-and everything in between
-In my life
+We sang, ate, and played.
+They made me think about my life,
+The good, the bad,
+and everything in between.
 
-We sang songs,
-enjoyed good foods,
-celebrated our freedoms
+Those days cannot be
+these days.
+But I can make these days
+better days.
 
-But now its time
-To experience these things
-with someone new
-
+With someone,
 Someone,
-specifically 
-
-YOU
+specifically,
+YOU!
 
 ```
 
 <center>
 
 
-![September 2, 2020](mimages/1 9-2-2020.jpg){length=400px, width=200px}
+![September 2, 2020](mimages/1 9-2-2020.jpg){length=1000px, width=500px}
 
-![September 6, 2020](mimages/2 9-6-2020.jpg){length=400px, width=200px}
+![September 6, 2020](mimages/2 9-6-2020.jpg){length=1000px, width=500px}
 
-![September 11, 2021](mimages/13 9-11-2021.jpg){length=400px, width=100px}
+![September 11, 2021](mimages/13 9-11-2021.jpg){length=1000px, width=500px}
 
-![October 30, 2020](mimages/4 10-30-2020.jpg){length=400px, width=100px}
+![October 30, 2020](mimages/4 10-30-2020.jpg){length=1000px, width=500px}
+
+
+![December 24, 2021](mimages/14 12-24-2021.jpg){length=1000px, width=500px}
+
+
+![December 31, 2021](mimages/15 12-31-2021.jpg){length=1000px, width=500px}
 
 </center>
