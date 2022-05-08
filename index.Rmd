@@ -21,6 +21,15 @@ This is a _sample_ book written in **Markdown**. You can use anything that Pando
 
 ## Usage 
 
+### First
+
+I opened `_output.yml` file and changed the repo name.
+
+can also change the color theme- primary
+
+- use *https://coolors.co/*
+- I used `4A8FE7` - united nations blue
+
 Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
 
 Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
