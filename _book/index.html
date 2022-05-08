@@ -27,28 +27,6 @@ The HTML output format for this example is bookdown::bs4_book,&lt;/p&gt;">
     
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   </style>
-<style type="text/css">
-    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
-    div.csl-bib-body { }
-    div.csl-entry {
-      clear: both;
-        }
-    .hanging div.csl-entry {
-      margin-left:2em;
-      text-indent:-2em;
-    }
-    div.csl-left-margin {
-      min-width:2em;
-      float:left;
-    }
-    div.csl-right-inline {
-      margin-left:2em;
-      padding-left:1em;
-    }
-    div.csl-indent {
-      margin-left: 2em;
-    }
-  </style>
 <link rel="stylesheet" href="style.css">
 </head>
 <body data-spy="scroll" data-target="#toc">
@@ -72,12 +50,12 @@ The HTML output format for this example is bookdown::bs4_book,&lt;/p&gt;">
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
         <ul class="book-toc list-unstyled">
 <li><a class="active" href="index.html"><span class="header-section-number">1</span> About</a></li>
-<li><a class="" href="preface.html"><span class="header-section-number">2</span> Preface</a></li>
-<li><a class="" href="cross.html"><span class="header-section-number">3</span> Cross-references</a></li>
-<li><a class="" href="parts.html"><span class="header-section-number">4</span> Parts</a></li>
-<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">5</span> Footnotes and citations</a></li>
-<li><a class="" href="blocks.html"><span class="header-section-number">6</span> Blocks</a></li>
-<li><a class="" href="sharing-your-book.html"><span class="header-section-number">7</span> Sharing your book</a></li>
+<li><a class="" href="how-do-i-be-there.html"><span class="header-section-number">2</span> How do I be there?</a></li>
+<li><a class="" href="what-is-or-isnt-love.html"><span class="header-section-number">3</span> What is or isn’t love</a></li>
+<li><a class="" href="family.html"><span class="header-section-number">4</span> Family</a></li>
+<li><a class="" href="sleepless-nights-house-alone.html"><span class="header-section-number">5</span> Sleepless Nights House Alone</a></li>
+<li><a class="" href="journey.html"><span class="header-section-number">6</span> Journey</a></li>
+<li><a class="" href="good.html"><span class="header-section-number">7</span> Good</a></li>
 <li><a class="" href="references.html">References</a></li>
 </ul>
 
@@ -93,69 +71,30 @@ The HTML output format for this example is bookdown::bs4_book,&lt;/p&gt;">
 <p>This is the first draft of a poetry book. Dedicated to my greatest, kindest, smartest, beautiful Manjot Kaur Rekhi.</p>
 <center>
 <div class="figure">
-<img src="mimages/18%203-19-2021.jpg" length="300px," width="100" alt=""><p class="caption">March 19, 2021</p>
-</div>
-<div class="figure">
-<img src="images/manjot%20kayak.jpg" length="400px," width="200" alt=""><p class="caption">July 25, 2020</p>
+<img src="mimages/18%203-19-2021.jpg" length="600px," width="200" alt=""><p class="caption">March 19, 2021</p>
 </div>
 </center>
-<div id="set-up" class="section level2" number="1.1">
+<div id="preface" class="section level2" number="1.1">
 <h2>
-<span class="header-section-number">1.1</span> Set up<a class="anchor" aria-label="anchor" href="#set-up"><i class="fas fa-link"></i></a>
+<span class="header-section-number">1.1</span> Preface<a class="anchor" aria-label="anchor" href="#preface"><i class="fas fa-link"></i></a>
 </h2>
-<p>I used the tutorial from <em><a href="https://www.youtube.com/watch?v=_ptrgqx2zUs&amp;ab_channel=AlisonHill" class="uri">https://www.youtube.com/watch?v=_ptrgqx2zUs&amp;ab_channel=AlisonHill</a></em></p>
-<ul>
-<li><p>I ran the function <code>create_bs4_book</code> in the <code>bookdown</code> package.</p></li>
-<li><p>I opened <code>_output.yml</code> file and changed the repo name to my Github repository URL.</p></li>
-<li><p>I changed the color theme- <code>primary</code> by searching colors in <em><a href="https://coolors.co/" class="uri">https://coolors.co/</a></em></p></li>
-<li><p>I used <code>4A8FE7</code> - United Nations Blue</p></li>
-<li><p>Each <strong>bookdown</strong> chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter <em>must</em> start with a first-level heading: <code># A good chapter</code>, and can contain one (and only one) first-level heading.</p></li>
-<li><p>Use second-level and higher headings within chapters like: <code>## A short section</code> or <code>### An even shorter section</code>.</p></li>
-<li><p>The <code>index.Rmd</code> file is required, and is also your first book chapter. It will be the homepage when you render the book.</p></li>
-</ul>
-</div>
-<div id="render-book" class="section level2" number="1.2">
-<h2>
-<span class="header-section-number">1.2</span> Render book<a class="anchor" aria-label="anchor" href="#render-book"><i class="fas fa-link"></i></a>
-</h2>
-<p>You can render the HTML version of this example book without changing anything:</p>
-<ol style="list-style-type: decimal">
-<li><p>Find the <strong>Build</strong> pane in the RStudio IDE, and</p></li>
-<li><p>Click on <strong>Build Book</strong>, then select your output format, or select “All formats” if you’d like to use multiple formats from the same book source files.</p></li>
-</ol>
-<p>Or build the book from the R console:</p>
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">bookdown</span><span class="fu">::</span><span class="fu"><a href="https://pkgs.rstudio.com/bookdown/reference/render_book.html">render_book</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
-</div>
-<div id="preview-book" class="section level2" number="1.3">
-<h2>
-<span class="header-section-number">1.3</span> Preview book<a class="anchor" aria-label="anchor" href="#preview-book"><i class="fas fa-link"></i></a>
-</h2>
-<p>As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in “Preview book,” or from the R console:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">bookdown</span><span class="fu">::</span><span class="fu"><a href="https://pkgs.rstudio.com/bookdown/reference/serve_book.html">serve_book</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
-</div>
-<div id="website-publishing" class="section level2" number="1.4">
-<h2>
-<span class="header-section-number">1.4</span> Website Publishing<a class="anchor" aria-label="anchor" href="#website-publishing"><i class="fas fa-link"></i></a>
-</h2>
-<p>After editing and adding the poems, I uploaded the book to Netlify.</p>
-<ul>
-<li>I used the <code>_book</code> folder for the website</li>
-</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="index.html#cb1-1" aria-hidden="true" tabindex="-1"></a>The wounds </span>
+<span id="cb1-2"><a href="index.html#cb1-2" aria-hidden="true" tabindex="-1"></a>Are reasons </span>
+<span id="cb1-3"><a href="index.html#cb1-3" aria-hidden="true" tabindex="-1"></a>I write poetry,</span>
+<span id="cb1-4"><a href="index.html#cb1-4" aria-hidden="true" tabindex="-1"></a>To lead us </span>
+<span id="cb1-5"><a href="index.html#cb1-5" aria-hidden="true" tabindex="-1"></a>back together.</span></code></pre></div>
+<p>Happy reading!</p>
+
 </div>
 </div>
   <div class="chapter-nav">
 <div class="empty"></div>
-<div class="next"><a href="preface.html"><span class="header-section-number">2</span> Preface</a></div>
+<div class="next"><a href="how-do-i-be-there.html"><span class="header-section-number">2</span> How do I be there?</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
 <li><a class="nav-link" href="#about"><span class="header-section-number">1</span> About</a></li>
-<li><a class="nav-link" href="#set-up"><span class="header-section-number">1.1</span> Set up</a></li>
-<li><a class="nav-link" href="#render-book"><span class="header-section-number">1.2</span> Render book</a></li>
-<li><a class="nav-link" href="#preview-book"><span class="header-section-number">1.3</span> Preview book</a></li>
-<li><a class="nav-link" href="#website-publishing"><span class="header-section-number">1.4</span> Website Publishing</a></li>
+<li><a class="nav-link" href="#preface"><span class="header-section-number">1.1</span> Preface</a></li>
 </ul>
 
       <div class="book-extra">
@@ -181,34 +120,6 @@ The HTML output format for this example is bookdown::bs4_book,&lt;/p&gt;">
   </div>
 
 </div></div>
-</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
-for (let popover of popovers) {
-  const div = document.createElement('div');
-  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
-  div.innerHTML = popover.getAttribute('data-content');
-
-  var has_math = div.querySelector("span.math");
-  if (has_math) {
-    document.body.appendChild(div);
-    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
-    MathJax.Hub.Queue(function() {
-      popover.setAttribute('data-content', div.innerHTML);
-      document.body.removeChild(div);
-    })
-  }
-}
-</script>
+</footer>
 </body>
 </html>

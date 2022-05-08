@@ -1,12 +1,41 @@
-# Parts
-
-You can add parts to organize one or more book chapters together. Parts can be inserted at the top of an .Rmd file, before the first-level chapter heading in that same file. 
-
-Add a numbered part: `# (PART) Act one {-}` (followed by `# A chapter`)
-
-Add an unnumbered part: `# (PART\*) Act one {-}` (followed by `# A chapter`)
-
-Add an appendix as a special kind of un-numbered part: `# (APPENDIX) Other stuff {-}` (followed by `# A chapter`). Chapters in an appendix are prepended with letters instead of numbers.
+# Family 
 
 
+```r
+When I was a kid,
+I went to temple on Saturday 
+and church on Sunday,
+To hear the preacher preach
 
+They made me think about everything good,
+everything bad,
+and everything in between
+In my life
+
+We sang songs,
+enjoyed good foods,
+celebrated our freedoms
+
+But now its time
+To experience these things
+with someone new
+
+Someone,
+specifically 
+
+YOU
+
+```
+
+<center>
+
+
+![September 2, 2020](mimages/1 9-2-2020.jpg){length=400px, width=200px}
+
+![September 6, 2020](mimages/2 9-6-2020.jpg){length=400px, width=200px}
+
+![September 11, 2021](mimages/13 9-11-2021.jpg){length=400px, width=100px}
+
+![October 30, 2020](mimages/4 10-30-2020.jpg){length=400px, width=100px}
+
+</center>

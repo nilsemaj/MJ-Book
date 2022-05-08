@@ -1,18 +1,44 @@
-# Footnotes and citations 
-
-## Footnotes
-
-Footnotes are put inside the square brackets after a caret `^[]`. Like this one ^[This is a footnote.]. 
-
-## Citations
-
-Reference items in your bibliography file(s) using `@key`.
-
-For example, we are using the **bookdown** package [@R-bookdown] (check out the last code chunk in index.Rmd to see how this citation key was added) in this sample book, which was built on top of R Markdown and **knitr** [@xie2015] (this citation was added manually in an external file book.bib). 
-Note that the `.bib` files need to be listed in the index.Rmd with the YAML `bibliography` key.
+# Sleepless Nights House Alone
 
 
-The `bs4_book` theme makes footnotes appear inline when you click on them. In this example book, we added `csl: chicago-fullnote-bibliography.csl` to the `index.Rmd` YAML, and include the `.csl` file. To download a new style, we recommend: https://www.zotero.org/styles/
+```r
+I am older now
+Trained by parents
+Protected by fear
 
+I sleep lightly
+Scared of something
+Stirred to uncertainty
 
-The RStudio Visual Markdown Editor can also make it easier to insert citations: <https://rstudio.github.io/visual-markdown-editing/#/citations>
+No laws against silence
+Every sound a nail
+In a feeling of loss 
+
+A frenzied attack.
+I merely lie still
+With no means of defense
+
+How my skin crawls, itches, and senses
+The assault begins
+As I start my sleep
+
+Why do I let my mind
+Premature in sleep
+Get under my skin
+
+How I wish to hold you 
+and kiss you
+but I tell myself I shouldn't
+```
+
+<center>
+
+![December 24, 2021](mimages/14.1 12-24-2021.jpg){length=400px, width=200px}
+
+![September 11, 2021](mimages/13.1 9-11-2021.jpg){length=400px, width=200px}
+
+![March 16, 2022](mimages/17 3-16-2022.jpg){length=400px, width=150px}
+
+![February 16, 2021](mimages/7 2-16-2021.jpg){length=400px, width=150px}
+
+</center>

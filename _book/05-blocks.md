@@ -1,53 +1,47 @@
-# Blocks
-
-## Equations
-
-Here is an equation.
-
-\begin{equation} 
-  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
-  (\#eq:binom)
-\end{equation} 
-
-You may refer to using `\@ref(eq:binom)`, like see Equation \@ref(eq:binom).
-
-
-## Theorems and proofs
-
-Labeled theorems can be referenced in text using `\@ref(thm:tri)`, for example, check out this smart theorem \@ref(thm:tri).
-
-::: {.theorem #tri}
-For a right triangle, if $c$ denotes the *length* of the hypotenuse
-and $a$ and $b$ denote the lengths of the **other** two sides, we have
-$$a^2 + b^2 = c^2$$
-:::
-
-Read more here <https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html>.
-
-## Callout blocks
-
-
-The `bs4_book` theme also includes special callout blocks, like this `.rmdnote`.
-
-::: {.rmdnote}
-You can use **markdown** inside a block.
+# Journey 
 
 
 ```r
-head(beaver1, n = 5)
-#>   day time  temp activ
-#> 1 346  840 36.33     0
-#> 2 346  850 36.34     0
-#> 3 346  900 36.35     0
-#> 4 346  910 36.42     0
-#> 5 346  920 36.55     0
+My hands on my fat thighs.
+Believing I would end up lost.
+My body signals,
+Enough of this cruelty 
+
+How I walk slowly back home,
+Close to falling,
+Sinking lower at each stride,
+Rising high with each low.
+
+Thousands of fools,
+Obsessed in their self-destruction,
+But that’s how the journey is,
+The journey of love
+
+To bear the distant longing,
+To bear sleepiness from endless talking,
+To bear two different worlds,
+Hoping on converging.
+
+How I hold space in my life,
+For a vision of you,
+Who will come by,
+To lift me higher.
+
+To feel a bond,
+That feeling is 
+What I starve for
+Beyond all.
+
 ```
 
-:::
 
-It is up to the user to define the appearance of these blocks for LaTeX output. 
-
-You may also use: `.rmdcaution`, `.rmdimportant`, `.rmdtip`, or `.rmdwarning` as the block name.
+<center>
 
 
-The R Markdown Cookbook provides more help on how to use custom blocks to design your own callouts: https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html
+![April 25, 2020](mimages/0.1 4-25-2020.jpg){length=400px, width=100px}
+
+![September 11, 2020](mimages/3 9-11-2020.jpg){length=400px, width=100px}
+
+![November 15, 2020](mimages/4.1 11-15-2020.jpg){length=400px, width=100px}
+
+</center>

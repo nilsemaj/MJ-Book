@@ -1,62 +1,44 @@
-# Cross-references {#cross}
-
-Cross-references make it easier for your readers to find and link to elements in your book.
-
-## Chapters and sub-chapters
-
-There are two steps to cross-reference any heading:
-
-1. Label the heading: `# Hello world {#nice-label}`. 
-    - Leave the label off if you like the automated heading generated based on your heading title: for example, `# Hello world` = `# Hello world {#hello-world}`.
-    - To label an un-numbered heading, use: `# Hello world {-#nice-label}` or `{# Hello world .unnumbered}`.
-
-1. Next, reference the labeled heading anywhere in the text using `\@ref(nice-label)`; for example, please see Chapter \@ref(cross). 
-    - If you prefer text as the link instead of a numbered reference use: [any text you want can go here](#cross).
-
-## Captioned figures and tables
-
-Figures and tables *with captions* can also be cross-referenced from elsewhere in your book using `\@ref(fig:chunk-label)` and `\@ref(tab:chunk-label)`, respectively.
-
-See Figure \@ref(fig:nice-fig).
+# What is or isn’t love 
 
 
 ```r
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
+
+Love isn’t a beautiful spring in an enchanted forest
+Deep in the soft misty dew
+Songs from the birds and quaking trees
+
+Love is the ache you feel when she doesn’t pick up the phone
+The emptiness you feel waking up
+The pain from the distance and time zones
+
+Love isn’t being comfortable at all times
+Having the answers to all of your problems
+Giving reasons to stay together forever
+
+Love is sharing our scars
+Counting the days till we see each other
+Waking up late and starting the day beyond normal
+
+Love isn’t rational like science or math
+It is responsible for being irresponsible 
+It is being familiar with fullness and belonging
+
+Even when my hair is overgrown and my clothes are oversized
+When my English isn't English 
+When my body isn't as fit
+
+You accept me
+
 ```
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{02-cross-refs_files/figure-latex/nice-fig-1} 
-
-}
-
-\caption{Here is a nice figure!}\label{fig:nice-fig}
-\end{figure}
-
-Don't miss Table \@ref(tab:nice-tab).
+<center>
 
 
-```r
-knitr::kable(
-  head(pressure, 10), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
+![February 15, 2021](mimages/16 2-16-2021.jpg){length=300px, width=150px}
+
+![August 15, 2021](mimages/12.1 8-15-2021.jpg){length=300px, width=150px} 
+
+![July 3, 2021](mimages/11.1 7-3-2021.jpg){length=300px, width=150px} 
 
 
-
-Table: Here is a nice table!
-
-| temperature| pressure|
-|-----------:|--------:|
-|           0|   0.0002|
-|          20|   0.0012|
-|          40|   0.0060|
-|          60|   0.0300|
-|          80|   0.0900|
-|         100|   0.2700|
-|         120|   0.7500|
-|         140|   1.8500|
-|         160|   4.2000|
-|         180|   8.8000|
+</center>
